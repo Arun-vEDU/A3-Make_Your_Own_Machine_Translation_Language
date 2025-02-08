@@ -7,3 +7,8 @@
 | Additive Attention  | 2.987     | 19.835     | 3.849     | 46.941     |
 
 This experiment was conducted with RNN /GRU + Attention 
+## Evaluation and Verification
+
+| ![Image 1](genaralAttention1.png) | ![Image 2](multiplicativeAttention1.png) | ![Image 3](AdditiveAttention1.png) |
+|------------------------|------------------------|------------------------|
+| ![Image 4](genaralAttention2.png) | ![Image 5](multiplicativeAttention2.png) | ![Image 6](AdditiveAttention2.png) |
