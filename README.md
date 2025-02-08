@@ -10,6 +10,7 @@ This experiment was conducted with RNN /GRU + Attention
 ## Evaluation and Verification
 | General Attention | Multiplicative Attention | Additive Attention |
 |------------------------|------------------------|------------------------|
-|Traning time: 82.65s |Traning time: 136.12s |Traning time: 134.61s |
+|Test time: 82.65s |Test time: 136.12s |Test time: 134.61s |
+|BLEU socre:  |BLEU socre:  |BLEU socre: |
 | ![Image 1](genaralAttention1.png) | ![Image 2](multiplicativeAttention1.png) | ![Image 3](AdditiveAttention1.png) |
 | ![Image 4](genaralAttention2.png) | ![Image 5](multiplicativeAttention2.png) | ![Image 6](AdditiveAttention2.png) |
