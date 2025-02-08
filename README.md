@@ -10,7 +10,7 @@ This experiment was conducted with RNN /GRU + Attention
 ## Evaluation and Verification
 | General Attention | Multiplicative Attention | Additive Attention |
 |------------------------|------------------------|------------------------|
-|Inferance time: 82.65s |Inferance time: 136.12s |Inferance time: 134.61s |
-|BLEU socre: 1.45 |BLEU socre:  |BLEU socre: 1.22|
+
+|BLEU socre: 4.99 |BLEU socre: 4.03 |BLEU socre: 3.13|
 | ![Image 1](genaralAttention1.png) | ![Image 2](multiplicativeAttention1.png) | ![Image 3](AdditiveAttention1.png) |
 | ![Image 4](genaralAttention2.png) | ![Image 5](multiplicativeAttention2.png) | ![Image 6](AdditiveAttention2.png) |
