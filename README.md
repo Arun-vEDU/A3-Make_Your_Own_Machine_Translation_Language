@@ -1,8 +1,7 @@
 ## Experiment with Attention Mechanisms
 
-| Column 1 | Column 2 | Column 3 | Column 4 | Column 5 |
+| Attentions | Training Loss | Traning PPL | Validation Loss | Validation PPL |
 |----------|----------|----------|----------|----------|
-| Row 1    | Data     | Data     | Data     | Data     |
-| Row 2    | Data     | Data     | Data     | Data     |
-| Row 3    | Data     | Data     | Data     | Data     |
-| Row 4    | Data     | Data     | Data     | Data     |
+|General Attention    | 3.815     | 45.379     | 4.111     | 61.010     |
+| Multiplicative Attention   | 3.383     | 29.473     | 3.942     | 51.510     |
+| Additive Attention  | 2.987     | 19.835     | 3.849     | 46.941     |
