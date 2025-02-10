@@ -17,7 +17,7 @@
 
 ## Analysis and Discussion
 
-General Attention performs best in translation quality (BLEU), likely due to its ability to capture contextual relationships. But, it has higher perplexity, suggesting weaker probabilistic calibration.
+Based on the experiment results, General Attention performs best in translation quality (BLEU), likely due to its ability to capture contextual relationships. But, it has higher perplexity, suggesting weaker probabilistic calibration.
 
 Additive Attention good in training efficiency and generalization (lowest losses/PPL) but underperforms in BLEU, possibly due to overfitting.
 
