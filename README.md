@@ -14,3 +14,17 @@
 |TEST PPL: 50.646 |TEST PPL: 50.770 |TEST PPL: 47.084|
 | ![Image 1](genaralAttention1.png) | ![Image 2](multiplicativeAttention1.png) | ![Image 3](AdditiveAttention1.png) |
 | ![Image 4](genaralAttention2.png) | ![Image 5](multiplicativeAttention2.png) | ![Image 6](AdditiveAttention2.png) |
+
+## Analysis and Discussion
+
+General Attention performs best in translation quality (BLEU), likely due to its ability to capture contextual relationships. But, it has higher perplexity, suggesting weaker probabilistic calibration.
+
+Additive Attention good in training efficiency and generalization (lowest losses/PPL) but underperforms in BLEU, possibly due to overfitting.
+
+Selecting Best model for machine translation:
+
+Prioritize BLEU -> General Attention.
+
+Prioritize training speed and perplexity -> Additive Attention.
+
+General Attention is more effective for translation tasks, while Additive Attention is better for efficient training and sequence prediction.Thus, select Genaral attention for the Machine Translation.
