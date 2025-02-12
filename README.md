@@ -1,5 +1,13 @@
 ## Experiment with Attention Mechanisms
+This experiment uses Transformers with attention
+| Attentions | Training Loss | Traning PPL | *Validation Loss | Validation PPL |
+|----------|----------|----------|----------|----------|
+|General Attention    | 4.040     | 56.836     | 4.227     | 68.485     |
+| Multiplicative Attention   | 3.384     | 29.486     | 4.022     | 55.794     |
+| Additive Attention  |     |      |     |     |
+| Multi-head Attention  | 3.648    | 38.399     |  4.001   | 54.654    |
 
+This experiment uses rnn/ GRU with attention
 | Attentions | Training Loss | Traning PPL | *Validation Loss | Validation PPL |
 |----------|----------|----------|----------|----------|
 |General Attention    | 3.306     | 27.270     | 3.947     | 51.755     |
@@ -8,6 +16,16 @@
 
 *These parameters are related to the lowest Validation loss during the traning.
 ## Evaluation and Verification
+This experiment uses Transformers with attention
+| General Attention | Multiplicative Attention | Additive Attention |Multi-head Attention |
+|------------------------|------------------------|------------------------|------------------------|
+|BLEU socre:  |BLEU socre:  |BLEU socre: |BLEU socre: | 
+|TEST PPL: 68.563 |TEST PPL: 55.948 |TEST PPL: |TEST PPL: 54.968|
+| ![Image 1](genaralAttention1.png) | ![Image 2](multiplicativeAttention1.png) | ![Image 3](AdditiveAttention1.png) |![Image 3](AdditiveAttention1.png) |
+| ![Image 4](genaralAttention2.png) | ![Image 5](multiplicativeAttention2.png) | ![Image 6](AdditiveAttention2.png) |[Image 6](AdditiveAttention2.png) |
+
+
+This experiment uses rnn/ GRU with attention
 | General Attention | Multiplicative Attention | Additive Attention |
 |------------------------|------------------------|------------------------|
 |BLEU socre: 4.99 |BLEU socre: 4.03 |BLEU socre: 3.13|
