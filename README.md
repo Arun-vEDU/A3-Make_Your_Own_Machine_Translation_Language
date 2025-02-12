@@ -20,7 +20,7 @@ This experiment uses Transformers with attention
 | General Attention | Multiplicative Attention | Additive Attention |Multi-head Attention |
 |------------------------|------------------------|------------------------|------------------------|
 |BLEU socre:  |BLEU socre:  |BLEU socre: |BLEU socre: | 
-|TEST PPL: 68.563 |TEST PPL: 55.948 |TEST PPL: |TEST PPL: 54.968|
+|TEST PPL: 68.563 |TEST PPL: 55.948 |TEST PPL:43.586 |TEST PPL: 54.968|
 | ![Image 1](genaralAttention1.png) | ![Image 2](multiplicativeAttention1.png) | ![Image 3](AdditiveAttention1.png) |![Image 3](AdditiveAttention1.png) |
 | ![Image 4](genaralAttention2.png) | ![Image 5](multiplicativeAttention2.png) | ![Image 6](AdditiveAttention2.png) |[Image 6](AdditiveAttention2.png) |
 
