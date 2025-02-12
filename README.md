@@ -4,7 +4,7 @@ This experiment uses Transformers with attention
 |----------|----------|----------|----------|----------|
 |General Attention    | 4.040     | 56.836     | 4.227     | 68.485     |
 | Multiplicative Attention   | 3.384     | 29.486     | 4.022     | 55.794     |
-| Additive Attention  |     |      |     |     |
+| Additive Attention  | 2.839    |   17.096   | 3.759    | 42.894     |
 | Multi-head Attention  | 3.648    | 38.399     |  4.001   | 54.654    |
 
 This experiment uses rnn/ GRU with attention
