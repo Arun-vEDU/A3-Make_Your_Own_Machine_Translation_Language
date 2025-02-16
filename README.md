@@ -7,7 +7,7 @@
 | *Additive Attention  | 2.839    |   17.096   | 3.759    | 42.894     |
 | *Multi-head Attention  | 3.648    | 38.399     |  4.001   | 54.654    |
 
-**This experiment uses rnn/ GRU with attention
+**This experiment uses rnn with attention
 | Attentions | Training Loss | Traning PPL | Validation Loss | Validation PPL |
 |----------|----------|----------|----------|----------|
 |**General Attention    | 3.306     | 27.270     | 3.947     | 51.755     |
