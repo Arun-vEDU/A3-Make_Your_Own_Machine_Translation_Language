@@ -19,10 +19,10 @@ Note: These parameters are related to the lowest Validation loss during the tran
 *This experiment uses Transformers with attention
 | *General Attention | *Multiplicative Attention | *Additive Attention |*Multi-head Attention |
 |------------------------|------------------------|------------------------|------------------------|
-|BLEU socre:  |BLEU socre:  |BLEU socre: |BLEU socre: | 
+|BLEU socre: 2.94  |BLEU socre: 10.85  |BLEU socre: 23.64 |BLEU socre: 8.63| 
 |TEST PPL: 68.563 |TEST PPL: 55.948 |TEST PPL:43.586 |TEST PPL: 54.968|
-| ![Image 1](genaralAttention1.png) | ![Image 2](multiplicativeAttention1.png) | ![Image 3](AdditiveAttention_trans1.png) |![Image 3](AdditiveAttention_trans1.png) |
-| ![Image 4](genaralAttention2.png) | ![Image 5](multiplicativeAttention2.png) | ![Image 6](AdditiveAttention_trans2.png) |[Image 6](AdditiveAttention_trans2.png) |
+| ![Image 1](genaralAttention_trans1.png) | ![Image 2](multiplicativeAttention1.png) | ![Image 3](AdditiveAttention_trans1.png) |![Image 3](multiplicativeAttention1.png)|
+| ![Image 4](genaralAttention_trans2.png) | ![Image 5](multiplicativeAttention2.png) | ![Image 6](AdditiveAttention_trans2.png) |![Image 6](multiplicativeAttention2.png) |
 
 
 **This experiment uses rnn/ GRU with attention
@@ -47,7 +47,7 @@ Prioritize BLEU -> General Attention.
 
 Prioritize training speed and perplexity -> Additive Attention.
 
-General Attention is more effective for translation tasks, while Additive Attention is better for efficient training and sequence prediction.Thus, select Genaral attention for the Machine Translation.
+General Attention is more effective for translation tasks, while Additive Attention is better for efficient training and sequence prediction.Thus, select Genaral attention for the Machine Translation in the case of rnn based attention.
 
 ## Results: Dash Application
 [![Watch the video](https://img.youtube.com/vi/7lEQ16-U0V8/maxresdefault.jpg)](https://www.youtube.com/watch?v=7lEQ16-U0V8)
