@@ -35,6 +35,7 @@ Note: These parameters are related to the lowest Validation loss during the tran
 
 ## Analysis and Discussion
 
+Additive Attention is the most effective attention mechanism for translating between Sinhala and English, achieving the highest BLEU score and lowest perplexity. Multiplicative Attention and Multi-head Attention perform moderately well, while General Attention is not suitable for this task.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **This experiment uses rnn with attention
 Based on the experiment results, General Attention performs best in translation quality (BLEU), likely due to its ability to capture contextual relationships. But, it has higher perplexity, suggesting weaker probabilistic calibration.
@@ -49,7 +50,7 @@ Prioritize training speed and perplexity -> Additive Attention.
 
 General Attention is more effective for translation tasks, while Additive Attention is better for efficient training and sequence prediction.Thus, select Genaral attention for the Machine Translation in the case of rnn based attention.
 
-## Results: Dash Application
+## Results: Dash Application 
 [![Watch the video](https://img.youtube.com/vi/7lEQ16-U0V8/maxresdefault.jpg)](https://www.youtube.com/watch?v=7lEQ16-U0V8)
 
 
