@@ -81,7 +81,7 @@ Model and Vocabulary Loading
 Model: The pre-trained transformer model is loaded from best-model-additive-attentionTransformer.pt.
 
 Vocabularies:
-vocabAA_en.pt: English vocabulary.
+vocabAA_en.pt: English vocabulary and
 vocabAA_si.pt: Sinhala vocabulary.
 
 Device Configuration: The model runs on the GPU if available; otherwise, it defaults to the CPU.
