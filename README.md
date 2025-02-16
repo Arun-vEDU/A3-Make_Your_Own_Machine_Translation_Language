@@ -1,6 +1,6 @@
 ## Experiment with Attention Mechanisms
 
-Experiment 1
+Experiment 1 :
 *This experiment uses Transformers with attention
 | Attentions | Training Loss | Traning PPL | Validation Loss | Validation PPL |
 |----------|----------|----------|----------|----------|
@@ -9,7 +9,7 @@ Experiment 1
 | *Additive Attention  | 2.839    |   17.096   | 3.759    | 42.894     |
 | *Multi-head Attention  | 3.648    | 38.399     |  4.001   | 54.654    |
 
-Experiment 2
+Experiment 2 : 
 **This experiment uses rnn with attention
 | Attentions | Training Loss | Traning PPL | Validation Loss | Validation PPL |
 |----------|----------|----------|----------|----------|
@@ -20,7 +20,7 @@ Experiment 2
 Note: These parameters are related to the lowest Validation loss during the traning.
 ## Evaluation and Verification
 
-Evaluation on experiment 1
+Evaluation on experiment 1 :
 *This experiment uses Transformers with attention
 | *General Attention | *Multiplicative Attention | *Additive Attention |*Multi-head Attention |
 |------------------------|------------------------|------------------------|------------------------|
@@ -30,7 +30,7 @@ Evaluation on experiment 1
 | ![Image 4](genaralAttention_trans2.png) | ![Image 5](multiplicativeAttention2.png) | ![Image 6](AdditiveAttention_trans2.png) |![Image 6](MultiHeadAttention_trans2.png) |
 
 
-Evaluation on experiment 2
+Evaluation on experiment 2 :
 **This experiment uses rnn/ GRU with attention
 | **General Attention | **Multiplicative Attention | **Additive Attention |
 |------------------------|------------------------|------------------------|
@@ -41,13 +41,13 @@ Evaluation on experiment 2
 
 ## Analysis and Discussion
 
-Analysis on experiment 1
+Analysis on experiment 1 :
 *This discussion uses transformers with attention
 
 Based on the experiment results, Additive Attention is the most effective attention mechanism for translating between Sinhala and English, achieving the highest BLEU score and lowest perplexity. Multiplicative Attention and Multi-head Attention perform moderately well, while General Attention is not suitable for this task.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Analysis on experiment 2
+Analysis on experiment 2 :
 **This discussion uses rnn with attention
 
 Based on the experiment results, General Attention performs best in translation quality (BLEU), likely due to its ability to capture contextual relationships. But, it has higher perplexity, suggesting weaker probabilistic calibration.
