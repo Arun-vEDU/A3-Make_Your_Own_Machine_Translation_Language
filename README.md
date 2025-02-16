@@ -50,5 +50,6 @@ Prioritize training speed and perplexity -> Additive Attention.
 General Attention is more effective for translation tasks, while Additive Attention is better for efficient training and sequence prediction.Thus, select Genaral attention for the Machine Translation.
 
 ## Results: Dash Application
-[(https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=7lEQ16-U0V8)
+[![Watch the video](https://img.youtube.com/vi/7lEQ16-U0V8/maxresdefault.jpg)](https://www.youtube.com/watch?v=7lEQ16-U0V8)
+
 
