@@ -36,7 +36,7 @@ Note: These parameters are related to the lowest Validation loss during the tran
 ## Analysis and Discussion
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**This experiment uses rnn/ GRU with attention
+**This experiment uses rnn with attention
 Based on the experiment results, General Attention performs best in translation quality (BLEU), likely due to its ability to capture contextual relationships. But, it has higher perplexity, suggesting weaker probabilistic calibration.
 
 Additive Attention good in training efficiency and generalization (lowest losses/PPL) but underperforms in BLEU, possibly due to overfitting.
