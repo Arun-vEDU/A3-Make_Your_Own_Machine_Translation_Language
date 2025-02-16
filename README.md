@@ -21,8 +21,8 @@ Note: These parameters are related to the lowest Validation loss during the tran
 |------------------------|------------------------|------------------------|------------------------|
 |BLEU socre:  |BLEU socre:  |BLEU socre: |BLEU socre: | 
 |TEST PPL: 68.563 |TEST PPL: 55.948 |TEST PPL:43.586 |TEST PPL: 54.968|
-| ![Image 1](genaralAttention1.png) | ![Image 2](multiplicativeAttention1.png) | ![Image 3](AdditiveAttention1.png) |![Image 3](AdditiveAttention1.png) |
-| ![Image 4](genaralAttention2.png) | ![Image 5](multiplicativeAttention2.png) | ![Image 6](AdditiveAttention2.png) |[Image 6](AdditiveAttention2.png) |
+| ![Image 1](genaralAttention1.png) | ![Image 2](multiplicativeAttention1.png) | ![Image 3](AdditiveAttention_trans1.png) |![Image 3](AdditiveAttention_trans1.png) |
+| ![Image 4](genaralAttention2.png) | ![Image 5](multiplicativeAttention2.png) | ![Image 6](AdditiveAttention_trans2.png) |[Image 6](AdditiveAttention_trans2.png) |
 
 
 **This experiment uses rnn/ GRU with attention
@@ -36,7 +36,7 @@ Note: These parameters are related to the lowest Validation loss during the tran
 ## Analysis and Discussion
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**This experiment uses rnn/ GRU with attention
+**This experiment uses rnn with attention
 Based on the experiment results, General Attention performs best in translation quality (BLEU), likely due to its ability to capture contextual relationships. But, it has higher perplexity, suggesting weaker probabilistic calibration.
 
 Additive Attention good in training efficiency and generalization (lowest losses/PPL) but underperforms in BLEU, possibly due to overfitting.
