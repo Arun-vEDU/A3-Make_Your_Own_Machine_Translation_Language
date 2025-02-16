@@ -1,13 +1,17 @@
 ## File structure in Git: 
-Task 1. Get Language Pair: Task 1.ipynb 
+Task 1. Get Language Pair: 
 
-Task 2. Experiment with Attention Mechanisms & Task 3. Evaluation and Verification: 
-genaralAttentionTransformers.ipynb
-multiplicativeAttentionTransformers.ipynb
-Additive AttentionTransformers.ipynb
+Task 1.ipynb 
+
+Task 2. Experiment with Attention Mechanisms & Task 3. Evaluation and Verification:
+
+genaralAttentionTransformers.ipynb,
+multiplicativeAttentionTransformers.ipynb,
+Additive AttentionTransformers.ipynb,
 MultiHeadAttention.ipynb
 
 Task 4. Machine Translation - Web Application Development
+
 app.py
 
 ## Experiment with Attention Mechanisms
