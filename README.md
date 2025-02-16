@@ -21,7 +21,7 @@ Note: These parameters are related to the lowest Validation loss during the tran
 |------------------------|------------------------|------------------------|------------------------|
 |BLEU socre: 2.94  |BLEU socre: 10.85  |BLEU socre: 23.64 |BLEU socre: 8.63| 
 |TEST PPL: 68.563 |TEST PPL: 55.948 |TEST PPL:43.586 |TEST PPL: 54.968|
-| ![Image 1](genaralAttention_trans1.png) | ![Image 2](multiplicativeAttention1.png) | ![Image 3](AdditiveAttention_trans1.png) |![Image 3](multiplicativeAttention1.png)|
+| ![Image 1](genaralAttention_trans1.png) | ![Image 2](multiplicativeAttention_trans1.png) | ![Image 3](AdditiveAttention_trans1.png) |![Image 3](multiplicativeAttention1.png)|
 | ![Image 4](genaralAttention_trans2.png) | ![Image 5](multiplicativeAttention2.png) | ![Image 6](AdditiveAttention_trans2.png) |![Image 6](multiplicativeAttention2.png) |
 
 
