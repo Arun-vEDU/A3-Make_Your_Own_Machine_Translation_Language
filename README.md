@@ -72,64 +72,39 @@ The application uses a sequence-to-sequence (Seq2Seq) transformer model with Add
 
 1. Overview
 The Dash application provides a user interface for translating English text into Sinhala. It interfaces with a pre-trained transformer model to perform the translation. The key components of the application are:
-
 Dash Framework: For building the web interface.
-
 PyTorch: For loading and running the transformer model.
-
 Transformer Model: A Seq2Seq model with Additive Attention, trained for English-to-Sinhala translation.
 
 2. Key Components
-#2.1. Model and Vocabulary Loading
+Model and Vocabulary Loading
 Model: The pre-trained transformer model is loaded from best-model-additive-attentionTransformer.pt.
-
 Vocabularies:
-
 vocabAA_en.pt: English vocabulary.
-
 vocabAA_si.pt: Sinhala vocabulary.
-
 Device Configuration: The model runs on the GPU if available; otherwise, it defaults to the CPU.
-
-2.2. Translation Function
+Translation Function
 The translate_sentence function performs the translation:
-
 Input Preprocessing:
-
 The input English sentence is tokenized and converted into a tensor using the source vocabulary.
-
 Model Inference:
-
 The model generates the translation token by token, starting with the <sos> (start-of-sequence) token.
-
 The loop continues until the <eos> (end-of-sequence) token is generated or the maximum sequence length is reached.
-
 Output Postprocessing:
-
 The predicted token indices are converted back into Sinhala words using the target vocabulary.
-
-2.3. Dash Interface
+Dash Interface
 Input: A text area where users can enter English text.
-
 Output: A div that displays the translated Sinhala text.
-
 Callback:
-
 When the "Translate" button is clicked, the input text is passed to the translate_sentence function.
-
 The translated text is displayed in the output div.
 
 3. Workflow
 User Input:
-
 The user enters English text in the input text area and clicks the "Translate" button.
-
 Translation Process:
-
 The input text is tokenized and converted into a tensor using the source vocabulary.
-
 The tensor is passed to the transformer model, which generates the translation token by token.
-
 The translation stops when the <eos> token is generated or the maximum sequence length is reached.
 
 
