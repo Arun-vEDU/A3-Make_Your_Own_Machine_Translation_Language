@@ -47,7 +47,7 @@ Prioritize BLEU -> General Attention.
 
 Prioritize training speed and perplexity -> Additive Attention.
 
-General Attention is more effective for translation tasks, while Additive Attention is better for efficient training and sequence prediction.Thus, select Genaral attention for the Machine Translation.
+General Attention is more effective for translation tasks, while Additive Attention is better for efficient training and sequence prediction.Thus, select Genaral attention for the Machine Translation in the case of rnn based attention.
 
 ## Results: Dash Application
 [![Watch the video](https://img.youtube.com/vi/7lEQ16-U0V8/maxresdefault.jpg)](https://www.youtube.com/watch?v=7lEQ16-U0V8)
