@@ -66,7 +66,7 @@ General Attention is more effective for translation tasks, while Additive Attent
 ## Results: Dash Application (Additive Attention with Transformers)
 [![Watch the video](https://img.youtube.com/vi/7lEQ16-U0V8/maxresdefault.jpg)](https://www.youtube.com/watch?v=7lEQ16-U0V8)
 
-Documentation: Dash Application Interface with Language Model for Machine Translation
+## Documentation: Dash Application Interface with Language Model for Machine Translation
 This documentation explains how the Dash application interfaces with the language model for translating English text to Sinhala. 
 The application uses a sequence-to-sequence (Seq2Seq) transformer model with Additive Attention for translation.
 
@@ -80,7 +80,7 @@ PyTorch: For loading and running the transformer model.
 Transformer Model: A Seq2Seq model with Additive Attention, trained for English-to-Sinhala translation.
 
 2. Key Components
-2.1. Model and Vocabulary Loading
+#2.1. Model and Vocabulary Loading
 Model: The pre-trained transformer model is loaded from best-model-additive-attentionTransformer.pt.
 
 Vocabularies:
