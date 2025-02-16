@@ -1,4 +1,4 @@
-## File structure in Git: 
+## File structure in Git:
 Task 1. Get Language Pair: 
 
 Task 1.ipynb 
